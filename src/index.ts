@@ -5,13 +5,16 @@ let age: number = 30;
 let x: undefined = undefined;
 let z: null = null;
 
-console.log(
-  `Hello, my name is ${firstName} ${lastName} and I am ${age} years old.`,
-);
+// console.log(
+//   `Hello, my name is ${firstName} ${lastName} and I am ${age} years old.`,
+// );
 
-const json = JSON.parse('{"firstName": "John", "lastName": "Doe", "age": 30}');
+const data = JSON.parse('{"firstName": "John", "lastName": "Doe", "age": 30}');
 
-console.log(typeof json);
+console.log(typeof data);
+
+const add = (a: number, b: number): number => a + b;
+// console.log(add(5, 10));
 
 // TODO: TS Arrays
 // const names: readonly string[] = ['Dylan'];
