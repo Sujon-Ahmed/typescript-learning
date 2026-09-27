@@ -4,6 +4,10 @@
   "description": "TypeScript is a syntactic superset of JavaScript which adds `static typing`.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "tsc && node dist/index.js",
+    "file": "node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

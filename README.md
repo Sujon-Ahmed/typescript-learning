@@ -1,3 +1,26 @@
+# TypeScript Learning
+
+A hands-on collection of TypeScript notes and example files, covering the
+basics of the type system: simple types, type assignment, `any` / `unknown` /
+`never`, arrays, and tuples.
+
+## Getting Started
+
+```bash
+npm install          # install the TypeScript compiler
+npm run build        # type-check and compile src/ into dist/
+npm start            # build, then run dist/index.js
+```
+
+Run a single file (Node 22.18+):
+
+```bash
+npm run file src/hello.ts
+```
+
+> Full instructions, the project layout, and troubleshooting live in
+> **[SETUP.md](./SETUP.md)**.
+
 ## Typescript Learning Notes
 
 ### What is TypeScript?
