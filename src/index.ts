@@ -1,6 +1,6 @@
 let firstName: string = "John";
 let lastName: string = "Doe";
-let age: number = 30;
+// let age: number = 30;
 
 let x: undefined = undefined;
 let z: null = null;

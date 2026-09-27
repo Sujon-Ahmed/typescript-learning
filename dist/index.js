@@ -1,7 +1,6 @@
 "use strict";
 let firstName = "John";
 let lastName = "Doe";
-let age = 30;
 let x = undefined;
 let z = null;
 const data = JSON.parse('{"firstName": "John", "lastName": "Doe", "age": 30}');
