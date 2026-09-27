@@ -15,4 +15,22 @@ let fullName: string = 'John Doe';
 let age: number = 30;
 let sentence: string = `Hello, my name is ${fullName} and I'll be ${age + 1} next year.`;
 
-console.log(sentence);
+
+// BigInt type example (ES2020+)
+const hugeNumber = BigInt('9007199254740991');
+
+// Output the value
+console.log(hugeNumber);
+
+
+//Code below will not work unless specified in tsconfig.json
+//const bigNumber: bigint = 9007199254740991n; Will not work unless 
+//console.log(bigNumber);
+
+// Symbol
+
+const uniqueKey: symbol = Symbol('description');
+const obj = {
+  [uniqueKey]: 'This is a unique property'
+};
+console.log(obj[uniqueKey]); // "This is a unique property"
